@@ -49,7 +49,7 @@ public class DynamicSineView1 extends View {
         //초침 그리기- 일정 시간마다 초침 이동
         Matrix mt = new Matrix();   //이동각
         Path secondPin = new Path();    //이동 전 정보
-        secondPin.moveTo(0+ bigRadius * 2, 0+ bigRadius+verticalOffset);
+        secondPin.moveTo(0+ bigRadius, 0+ bigRadius+verticalOffset);
         secondPin.lineTo(0+bigRadius *2, 0+bigRadius+verticalOffset);   //0초를 그림
         mt.setRotate(-1.0f*ht * second, 0+ bigRadius, 0+ bigRadius +verticalOffset);    //이동 정보
         secondPin.transform(mt);    //이동 시간에 따른 각도 변화 반영

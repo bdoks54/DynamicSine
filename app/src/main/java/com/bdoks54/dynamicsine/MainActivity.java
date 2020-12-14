@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
-        //setContentView(new DynamicSineView1(this));
-        setContentView(new DynamicSineView2(this));
+        setContentView(new DynamicSineView1(this));
+        //setContentView(new DynamicSineView2(this));
     }
 }
